@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/avatar.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/avatar",
+      "dest": "api/avatar.py"
+    }
+  ]
+}
